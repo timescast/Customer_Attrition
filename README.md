@@ -1,4 +1,4 @@
-# Customer Attrition Prediction with MLOps
+# Customer Attrition Prediction 
 
 This project demonstrates an **end-to-end MLOps pipeline** for predicting customer churn using the [Telco Customer Churn dataset](https://www.kaggle.com/blastchar/telco-customer-churn).
 
@@ -43,6 +43,7 @@ app/
   python src/train.py --n_estimators 100 --max_depth 5
 
 ```
+
 
 
 
