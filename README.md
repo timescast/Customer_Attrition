@@ -8,32 +8,27 @@ This project demonstrates an **end-to-end MLOps pipeline** for predicting custom
 - **DVC**: Dataset & pipeline versioning.
 - **Scikit-learn**: Random Forest classifier.
 
-## Project Structure
+## 2. Project Structure
 
- 
-
-```markdown
 ```
-
-churn-mlops/
+app/
 │── data/
-│   ├── raw/            # Original dataset (DVC tracked)
-│   └── processed/      # Preprocessed dataset (DVC pipeline output)
-│
+│   └── raw/                # Original dataset (DVC tracked)
+│   └── processed/          # Preprocessed dataset (DVC pipeline output)
 │── src/
-│   ├── train.py        # Training script (with MLflow logging)
-│   └── utils.py        # Data cleaning & preprocessing
-│
-│── app.py              # Streamlit app for demo
-│── requirements.txt    # Python dependencies
-│── MLproject           # MLflow project definition
-│── dvc.yaml            # DVC pipeline definition
-│── README.md           # Project documentation
+│   ├── train.py            # Training script (with MLflow logging)
+│   ├── utils.py            # Data cleaning & preprocessing
+│── app.py                  # Streamlit app for demo
+│── requirements.txt        # Python dependencies
+│── MLproject               # MLflow project definition
+│── dvc.yaml                # DVC pipeline definition
+│── README.md               # Project documentation
 │── .gitignore
 │── .dvcignore
+```
 
-```
-```
+---
+
 
 
 ## Setup
@@ -48,5 +43,6 @@ churn-mlops/
   python src/train.py --n_estimators 100 --max_depth 5
 
 ```
+
 
 
