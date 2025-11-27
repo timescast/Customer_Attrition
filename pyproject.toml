@@ -1,0 +1,17 @@
+[project]
+name = "predict-mlops"
+version = "0.1.0"
+description = "Predictions with MLflow, DVC, Streamlit"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ruff>=0.13.2",
+    "ipykernel",
+    "kagglehub",
+    "pip-system-certs",
+    "pandas",
+    "scikit-learn",
+    "mlflow",
+    "dvc",
+    "streamlit"
+]
