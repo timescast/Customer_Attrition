@@ -29,20 +29,12 @@ app/
 
 ---
 
-
-
-## Setup
-
-```bash
-    git clone https://github.com/<your-username>/Customer_Attrition.git
-    cd churn-mlops
-    pip install -r requirements.txt
-```
 ## Training and Monitoring
 ```bash
   python src/train.py --n_estimators 100 --max_depth 5
 
 ```
+
 
 
 
